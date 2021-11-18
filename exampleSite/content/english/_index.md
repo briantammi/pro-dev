@@ -1,7 +1,7 @@
 ---
 banner:
   enable: true
-  bg_image: images/slider-bg.jpg
+  bg_image: images/epic dill.jpg
   bg_overlay: true
   title: The Farm Coach <br/> comprehensive farm training
   content: Vital farm skills training for beginners and professionals. We help you
