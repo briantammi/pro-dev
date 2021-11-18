@@ -20,6 +20,7 @@ sections:
   path: exampleSite/content/english/about
   label: About (en)
   create: all
+  match: "**/*"
   templates:
   - author
 - type: directory
@@ -41,12 +42,12 @@ sections:
   path: exampleSite/content/past
   label: Past Projects (en)
   create: all
+  match: "**/*"
   templates:
   - new-page
 - type: document
   path: exampleSite/content/future
   label: Upcoming Projects
-  match: "**/*"
 - type: heading
   label: Configuration
 - type: document
@@ -69,7 +70,7 @@ sections:
   label: i18n Translations
   create: all
   match: "**/*"
-upload_dir: exampleSite/static/images
+upload_dir: pro-dev/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
